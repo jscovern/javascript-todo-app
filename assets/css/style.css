@@ -1,4 +1,15 @@
 body {
   background: #C9C4C4; }
 
+.alert {
+  color: red;
+  display: block;
+  height: 10px; }
+
+.completed {
+  text-decoration: line-through; }
+
+.deleteMe {
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */

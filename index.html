@@ -13,15 +13,19 @@
         New todo:
         <input class="todo-text" type="text" />
       </label>
-      <input type="submit" value="add" />
+      <input type="submit" class="add-todo" value="add"/>
+      <input type="submit" class="clear-completed" value="Clear Completed" />
     </form>
+
+    <div class="alert"> </div>
+
     <ul class="todos">
     </ul>
     <div class="stats">
       <ul>
-        <li>Total:</li>
-        <li>Complete</li>
-        <li>Incomplete:</li>
+        <li class="countTotal">Total:</li>
+        <li class="countComplete">Complete</li>
+        <li class="countIncomplete">Incomplete:</li>
       </ul>
     </div>
   </body>
