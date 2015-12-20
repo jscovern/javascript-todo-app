@@ -97,10 +97,12 @@ function findArrayPositionByID(id) {
 function addToLocalStorage(myArray) {
   // localStorage.setItem("todos-list", myArray);
   localStorage["todos-list"] = JSON.stringify(todos); //local storage only allows strings and numbers - thise turns an array, into a string
+  //got the idea from http://stackoverflow.com/questions/3357553/how-to-store-an-array-in-localstorage
 }
 
 function getFromLocalStorage(key) {
   var myArray = JSON.parse(localStorage["todos-list"]); //this takes the string that is in local storage, and turns it back into the array
+  //got the idea from http://stackoverflow.com/questions/3357553/how-to-store-an-array-in-localstorage
   return myArray;
 }
 
